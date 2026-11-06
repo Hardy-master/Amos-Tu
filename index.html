@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Amos Tu | Digital Business Card</title>
+<style>
+*{box-sizing:border-box}
+body{margin:0;min-height:100vh;font-family:Inter,Arial,Helvetica,sans-serif;background:linear-gradient(135deg,#f5f8fb,#e8eef5);color:#083b63;display:flex;align-items:center;justify-content:center;padding:22px}
+.card{width:100%;max-width:430px;text-align:center;padding:32px 24px;border-radius:30px;background:#fff;border:1px solid rgba(8,59,99,.12);box-shadow:0 24px 70px rgba(0,34,68,.16)}
+.logo{width:100%;max-width:300px;height:auto;margin:0 auto 28px;display:block}
+h1{margin:0;font-size:30px;font-weight:750;letter-spacing:-.6px;color:#003f6b}
+.position{margin-top:16px;font-size:16px;font-weight:600;line-height:1.4;color:#003f6b}
+.name-zh{margin-top:5px;font-size:17px;font-weight:600;line-height:1.4;color:#003f6b}
+.company{margin-top:8px;font-size:15px;color:rgba(0,63,107,.72);line-height:1.5}
+.slogan{margin:22px 0 26px;font-size:14px;line-height:1.55;color:rgba(0,63,107,.62)}
+.buttons{display:flex;flex-direction:column;gap:12px}
+.button{display:block;width:100%;padding:15px 18px;border-radius:15px;text-decoration:none;background:#004b7f;color:#fff;font-size:15px;font-weight:700;border:none;cursor:pointer;-webkit-tap-highlight-color:transparent}
+.secondary{background:#eef4f8;color:#004b7f;border:1px solid rgba(0,75,127,.12)}
+.contact-line{margin-top:22px;font-size:13px;color:rgba(0,63,107,.58);line-height:1.7;word-break:break-word}
+.footer{margin-top:24px;font-size:12px;line-height:1.5;color:rgba(0,63,107,.42)}
+.qr-panel{margin-top:18px;background:#f7fafc;border:1px solid rgba(0,75,127,.12);border-radius:15px}
+.qr-panel summary{padding:12px;font-size:14px;font-weight:700;color:#004b7f;cursor:pointer}
+.qr-panel img{display:block;width:231px;max-width:calc(100% - 24px);height:auto;margin:0 auto;image-rendering:pixelated}
+.qr-panel p{margin:8px 12px 14px;font-size:13px;line-height:1.45;color:#35576f}
+</style>
+</head>
+<body>
+<main class="card">
+  <img class="logo" src="./bpg-official-logo.png" width="780" height="98" alt="Baiyun Power Group Logo">
+  <h1>Amos Tu</h1>
+  <div class="name-zh" lang="zh-CN">涂云勐</div>
+  <div class="position">Senior Consultant of Middle East Region</div>
+  <div class="company">Baiyun Power Group<br>白云电气集团有限公司</div>
+  <div class="slogan">Practitioner and Pioneer in Green and Smart Energy</div>
+  <div class="buttons">
+    <a class="button" href="./Amos-Tu.vcf" type="text/vcard" download="Amos-Tu.vcf">Save Contact</a>
+    <a class="button secondary" href="tel:+8618682418858">Call</a>
+    <a class="button secondary" href="https://wa.me/8618682418858" target="_blank" rel="noopener">WhatsApp</a>
+    <a class="button secondary" href="mailto:amos.tu@hotmail.com">Email</a>
+    <a class="button secondary" href="https://www.baiyunpower.com" target="_blank" rel="noopener">Company Website</a>
+    <a class="button secondary" href="https://cn.linkedin.com/company/baiyun-power-group" target="_blank" rel="noopener noreferrer">BPG on LinkedIn</a>
+  </div>
+  <div class="contact-line">+86 186 8241 8858<br>amos.tu@hotmail.com</div>
+  <details class="qr-panel">
+    <summary>Show Contact QR Code</summary>
+    <img src="./Amos-Tu-Contact-QR.png" width="924" height="924" alt="Contact QR code for Amos Tu" loading="lazy">
+    <p>Scan with your phone camera and follow the prompt to save the contact.</p>
+  </details>
+  <div class="footer">Baiyun Electric Group Co., Ltd.<br>Guangzhou, China</div>
+</main>
+</body>
+</html>
